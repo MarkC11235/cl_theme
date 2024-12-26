@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>CastleLang Theme</string>
+    <key>settings</key>
+    <array>
+        <dict>
+            <key>scope</key>
+            <string>keyword.control.cl</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DD66DD</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>keyword.type.cl</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#22BBEE</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>keyword.assign.cl</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#CCCC00</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>keyword.stdlib.cl</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DD3333</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>keyword.other.cl</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#99AAFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>string.quoted.double.cl</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFBB55</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>comment.line.cl</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <!-- green -->
+                <string>#44BB44</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>

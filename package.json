@@ -1,0 +1,35 @@
+{
+  "name": "cl",
+  "displayName": "CastleLang Theme",
+  "description": "A theme for CastleLang",
+  "version": "1.0.0",
+  "publisher": "markcastle",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cl.git"
+  },
+  "contributes": {
+    "languages": [{
+      "id": "cl",
+      "aliases": ["castlelang", "cl"],
+      "extensions": [".cl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "cl",
+      "scopeName": "source.cl",
+      "path": "./syntaxes/cl.tmLanguage.json"
+    }],
+    "themes": [{
+      "label": "CastleLang Theme",
+      "path": "./theme.tmTheme"
+    }]
+  }
+}

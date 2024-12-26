@@ -1,0 +1,61 @@
+{
+	"name": "castlelang",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+			{
+				"name": "keyword.control.cl",
+				"match": "\\b(if|for|else|return|continue|break)\\b"
+			},
+			{
+				"name": "keyword.type.cl",
+				"match": "\\b(struct|func|null|true|false)\\b"
+			},
+			{
+				"name": "keyword.assign.cl",
+				"match": "\\b(let)\\b"
+			},
+			{
+				"name": "keyword.stdlib.cl",
+				"match": "\\$"
+			},
+			{
+				"name": "keyword.other.cl",
+				"match": "\\b(print)\\b"
+			}
+			]
+			
+		},
+		"strings": {
+			"name": "string.quoted.double.cl",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.cl",
+					"match": "\\\\."
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.cl",
+					"match": "//.*"
+				}
+			]
+		}
+	},
+	"scopeName": "source.cl"
+}
