@@ -20,7 +20,7 @@
 			},
 			{
 				"name": "keyword.type.cl",
-				"match": "\\b(struct|func|null|true|false)\\b"
+				"match": "\\b(map|func|null|true|false)\\b"
 			},
 			{
 				"name": "keyword.assign.cl",
