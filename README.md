@@ -12,4 +12,6 @@ highlighting for cl
 
 Initial release of cl highlighting extension
 
+### 1.0.1
 
+Changed struct -> map
