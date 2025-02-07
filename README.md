@@ -23,3 +23,7 @@ Added foreach loop syntax
 ### 1.0.3
 
 .clh files now have highlighting
+
+### 1.0.4
+
+changed highlighting colors

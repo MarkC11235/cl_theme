@@ -2,7 +2,7 @@
   "name": "cl",
   "displayName": "CastleLang Theme",
   "description": "A theme for CastleLang",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "markcastle",
   "engines": {
     "vscode": "^1.75.0"
