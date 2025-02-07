@@ -1,5 +1,16 @@
 # Welcome to your VS Code Extension
 
+## Process to test the extension and release
+
+Press f5 in while in the folder that has the project
+    - This will open a new vscode window with the extension loaded
+
+Run 'vsce package' in the terminal
+    - This will create a .vsix file that can be installed in vscode
+
+Go to the VS Code Marketplace and upload the .vsix file
+    - This will publish the extension to the marketplace
+
 ## What's in the folder
 
 * This folder contains all of the files necessary for your extension.

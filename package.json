@@ -2,7 +2,7 @@
   "name": "cl",
   "displayName": "CastleLang Theme",
   "description": "A theme for CastleLang",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "publisher": "markcastle",
   "engines": {
     "vscode": "^1.75.0"
@@ -19,7 +19,7 @@
     "languages": [{
       "id": "cl",
       "aliases": ["castlelang", "cl"],
-      "extensions": [".cl"],
+      "extensions": [".cl", ".clh"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{

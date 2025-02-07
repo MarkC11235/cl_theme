@@ -16,8 +16,9 @@
 			"patterns": [
 			{
 				"name": "keyword.control.cl",
-				"match": "\\b(if|for|else|return|continue|break)\\b"
+				"match": "\\b(if|for|foreach|in|else|return|continue|break)\\b|\\:"
 			},
+			
 			{
 				"name": "keyword.type.cl",
 				"match": "\\b(map|func|null|true|false)\\b"
